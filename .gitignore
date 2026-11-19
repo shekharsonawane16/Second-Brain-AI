@@ -1,0 +1,30 @@
+# deps
+node_modules/
+.next/
+out/
+dist/
+
+# env — never commit real credentials
+.env
+.env.local
+.env*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+.vercel
+.env*
+# Backup and TypeScript build files
+.next-backup-*/
+*.tsbuildinfo
+
+# Environment files
+.env.example
