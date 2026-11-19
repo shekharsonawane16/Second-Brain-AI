@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Second Brain AI — Your Life. Your Knowledge. Your Intelligence.
 
 Second Brain AI is a personal productivity and intelligent knowledge platform: Next.js 14 + TypeScript + Tailwind + Supabase (PostgreSQL + Auth), with an automatic deadline-driven priority engine, dashboard, calendar, notifications, analytics, offline PWA, trash recovery, and a genuine AI Second Brain (Life Inbox, assistant, semantic memory and confirmed task breakdown).
@@ -155,3 +156,6 @@ scripts/run-ai-tests.mjs       AI schema, safety and MIME tests
 - Manual: create/edit/complete/archive/delete/restore, sections CRUD + move-on-delete, refresh persistence, sign-out/in, second device (cloud mode), filters/sorts, timezone change (Settings → try Asia/Kolkata vs UTC near midnight), calendar click-flows, import/export round-trip.
 - Prompt 3 manual flow: run both migrations, configure AI env, capture each source type, confirm deadlines are source-backed, approve selected tasks/notes, verify memory search, apply an assistant action only after confirmation, accept/reject a connection, and generate a task breakdown without auto-saving it.
 - AI health check: authenticated `GET /api/ai/status` must report `configured: true`; missing tables return the honest “Run the Prompt 3 AI migration” message instead of fake data.
+=======
+# Second-Brain-AI
+>>>>>>> a41daf102a0547ace8ca8b7f4a7db8abecee5625
